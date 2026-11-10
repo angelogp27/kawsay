@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAE65ABB-7DD4-8FAA-EA0D-64CA73A3945F" name="ALERTA">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:15 UTC</createdTime>
+<generatorID>D7BEB684-EDB1-5860-C6DC-C2F87CCF655A</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ALERTA" id="015AE33D-8E3D-5EBE-463C-75383B9818E3">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>801A53D3-DEE9-7EB9-179B-8022015C8E82</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID AVISTAMIENTO" id="795B791B-FA76-B211-8742-C8271888E8FC">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>036F9094-620D-36AB-9E2A-5C8B2028DEF3</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<referedAttribute>67B4AD3B-9342-9F97-4B7D-1798077FFB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID INVESTIGADOR" id="550F6778-C671-FA3B-E128-A56BE90883B1">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>FC3F3CA4-9932-A5D6-7E21-47C394B1CF6B</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D3371E71-0704-EA4C-127C-97E737BABEE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="E7213A8B-7DBB-0413-E972-429A62DD6957">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>17AE4D3A-DDBD-68DE-485D-C6ED8DC8A75D</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_ALERTA_TIPO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;especie_amenazada&apos;" description=""/>
+<valueDef value="&apos;fuera_rango_geografico&apos;" description=""/>
+<valueDef value="&apos;fuera_temporada&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA GENERACION" id="2E3DB7AC-5B42-AE1E-A1C6-68C3DF4FA0EB">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>D03900F2-1646-63EE-FBB2-3660343EFF17</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="C153E69F-0F72-5B9F-7C71-70D62BBACCED">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>DE113224-57A9-0286-1B50-C9769A6C1BFC</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_ALERTA_ESTADO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;asignada&apos;" description=""/>
+<valueDef value="&apos;descartada&apos;" description=""/>
+<valueDef value="&apos;pendiente&apos;" description=""/>
+<valueDef value="&apos;resuelta&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="087A84B0-D0CC-88A8-3304-2850B38B259D" name="PK ALERTA">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>AAF6C5BA-4D11-40A9-81B0-BDDBB4877C5F</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>015AE33D-8E3D-5EBE-463C-75383B9818E3</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="803C28F8-08A0-5B54-DBD4-85720B2B74F9" name="UQ ALERTA TIPO">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>91EA640E-097D-A46F-8956-1A2ED9BB0DA9</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>795B791B-FA76-B211-8742-C8271888E8FC</attributeRef>
+<attributeRef>E7213A8B-7DBB-0413-E972-429A62DD6957</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

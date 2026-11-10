@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71A7C877-9271-9599-8D11-CDAC22B8B672" name="CELDA MUESTREO">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>BE8747FF-5DA7-1A67-4ADD-7E79B277F8CD</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CELDA" id="809C5C2B-0454-F849-A597-923164567460">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>AA0D78D6-EA96-B5A8-F7CF-811750307413</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POLIGONO" id="809E03F2-BEA7-64F9-2914-FFEB93D970A7">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>7E0954C7-F6F0-F578-8DE7-95E41FA30924</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<allowSubtypeSubstitution>false</allowSubtypeSubstitution>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E36825E-375F-8CC5-6335-D13D73FB6AC9" name="PK CELDA MUESTREO">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>BF8AD845-6188-F04E-D9F8-249EC358057A</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>809C5C2B-0454-F849-A597-923164567460</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

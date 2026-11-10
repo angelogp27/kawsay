@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="IDENTIFICACION" directorySegmentName="seg_0" id="35917723-2B99-17F5-C351-D686DE9D6B89">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EBBA81DB-036D-7A21-7874-02974C82B176</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_AVISTAMIENTO" id="5B891546-EF4F-C9F3-E338-B794A37377E5">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TAXON_PROPUESTO" id="8ACCD528-464E-7D38-EE7F-C0AFB6AE2F95">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="8E4FC897-E14A-2DCA-538E-B7EB54F7FA22">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_IDENTIFICACION" id="9AC868B8-29C7-83CD-1D9D-FC458EE5A264">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_OBSERVADOR" id="C34E5F80-500C-46B4-5423-B3B95A516213">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_IDENTIFICACION_OBSERVADOR" id="7D420B05-EBE8-4FF2-0CDD-BDA2E10D00EE">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_IDENTIFICACION" id="F5B38BE3-9BCD-8A38-D8F0-D65BD86C7B39">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_IDENTIFICACION_OBSERVADOR" id="1186A22E-44A2-94BE-DB17-A99B0A07BE07">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_IDENTIFICACION_TAXON" id="16F6D44E-C72E-0CD3-CA8C-17495F2EE1BF">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_IDENTIFICACION_AVISTAMIENTO" id="A8A53829-6011-BE19-0391-31FDB8ED1953">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_IDENTIFICACION" id="B2833069-91F6-0A37-DF36-4F567B5EAA6E">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<existingIndex>F5B38BE3-9BCD-8A38-D8F0-D65BD86C7B39</existingIndex>
+<indexSegment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_IDENTIFICACION_OBSERVADOR" id="F76A73BD-81B6-FCA9-2D02-70B8AA995476">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<existingIndex>7D420B05-EBE8-4FF2-0CDD-BDA2E10D00EE</existingIndex>
+<indexSegment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

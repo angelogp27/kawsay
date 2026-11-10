@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B7F31B4-980D-9BC5-3129-F4C79CCE3002" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="DEPARTAMENTO">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>DEPARTAMENTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPARTAMENTO" id="E2220C0E-1323-C714-EDED-1E692646BD2F">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>ID_DEPARTAMENTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="17AF15A9-B9EC-DDC2-FA26-4A3C9A55B610">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POLIGONO" id="726A8849-9B52-C590-232B-23A39084CB2A">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>POLIGONO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<allowSubtypeSubstitution>false</allowSubtypeSubstitution>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="018CAFA2-4562-4829-25D7-69C5AD25D227" name="PK_DEPARTAMENTO">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_DEPARTAMENTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2220C0E-1323-C714-EDED-1E692646BD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D97CABA9-A65F-4E28-DB7E-764240359965" name="UQ_DEPARTAMENTO_NOMBRE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>UQ_DEPARTAMENTO_NOMBRE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17AF15A9-B9EC-DDC2-FA26-4A3C9A55B610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06BC572A-A4B5-20E6-A802-AE89579912A4" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_DEPARTAMENTO">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_DEPARTAMENTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2220C0E-1323-C714-EDED-1E692646BD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AC9EB76-73AB-52A4-633A-F7EE4B0C2BEB" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="UQ_DEPARTAMENTO_NOMBRE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>UQ_DEPARTAMENTO_NOMBRE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17AF15A9-B9EC-DDC2-FA26-4A3C9A55B610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

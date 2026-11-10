@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37FC823A-02B8-21CE-C622-A374CF507C61" name="EVIDENCIA">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>DFB7B396-158E-835C-F212-C1C8A0EC9B75</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID EVIDENCIA" id="30A646F6-1A61-E7C8-7559-11DE32F6B6A1">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>B49A2F4D-EBE0-5326-1C88-1C52311930AF</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID AVISTAMIENTO" id="E63D7FC0-AE4F-E550-989A-3A956FD67517">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>B2591C5D-7F76-0A0B-889B-DFA72CAD0AC4</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<referedAttribute>67B4AD3B-9342-9F97-4B7D-1798077FFB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="1ECC6BAF-6A87-B0B4-04BA-0EF8FB2570F1">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>BA11CF85-1F25-AF92-7DD6-A7035D64F495</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_EVIDENCIA_TIPO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;audio&apos;" description=""/>
+<valueDef value="&apos;foto&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UBICACION RECURSO" id="85BC7F25-0E52-175A-46C1-A60BFA4092A5">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>597F985A-2C61-066A-AB23-8A73D1CFB5CE</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HASH ARCHIVO" id="32304FFD-8FB0-F128-84C8-D1FE17DBE90C">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>6C2D323C-5869-E33C-B169-008595135574</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA CARGA" id="A4656BD5-E83A-6D13-D89A-5C57ACAA016E">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>11C8B015-C296-3806-56CC-50408C4CDD6F</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AB12981-1741-6167-FDC6-12F776337EBA" name="PK EVIDENCIA">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>F2704A7F-7923-86C0-DA9B-1A5E263B5FFA</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30A646F6-1A61-E7C8-7559-11DE32F6B6A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

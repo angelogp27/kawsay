@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88577956-3234-AE5D-AFBF-AF00E8B52E89" name="TAXON">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>A5270724-89E6-5CA8-444D-C01287484F17</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TAXON" id="25BE4310-C698-D549-079D-A7C6D51B6B0C">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>C6B2256A-39C1-5F89-2485-D2EE53EFAA09</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE CIENTIFICO" id="267BFFEE-7605-32C6-E887-055FC1E9CAB4">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>98087468-5379-5412-D912-4BF0DAAD5AF0</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RANGO" id="02D43E25-472F-951C-661B-E2B2160AA974">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>986F5AE9-33F9-F3DC-EF13-AEA437B67E4C</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_TAXON_RANGO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;clase&apos;" description=""/>
+<valueDef value="&apos;especie&apos;" description=""/>
+<valueDef value="&apos;familia&apos;" description=""/>
+<valueDef value="&apos;filo&apos;" description=""/>
+<valueDef value="&apos;genero&apos;" description=""/>
+<valueDef value="&apos;orden&apos;" description=""/>
+<valueDef value="&apos;reino&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TAXON PADRE" id="7FD8ADD9-5928-2563-0A75-7E1B22225BAF">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>8B28B4CD-506D-D474-4320-3A34B44327FC</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>25BE4310-C698-D549-079D-A7C6D51B6B0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7B8965E-57DB-7935-B106-6B562015A9E3" name="PK TAXON">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>7E19AC72-D8FA-EE7A-8D6D-B0AF087746B3</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25BE4310-C698-D549-079D-A7C6D51B6B0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

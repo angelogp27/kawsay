@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDD9B665-2DDD-819D-7B58-F292C1885E06" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="AREA_PROTEGIDA">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>AREA_PROTEGIDA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AREA" id="DCF9D291-C281-3F5B-3765-E475FD90602E">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>AREA_PROTEGIDA</sourceObjSchema>
+<sourceObjName>ID_AREA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8CD17F7D-E3E6-F827-C2BB-1152C7530F9A">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>AREA_PROTEGIDA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="13E631C3-5A70-7A78-F470-858736ECE08B">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>AREA_PROTEGIDA</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POLIGONO" id="C6A54A9E-E60A-DD66-4A2A-954BEC8BB45E">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>AREA_PROTEGIDA</sourceObjSchema>
+<sourceObjName>POLIGONO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<allowSubtypeSubstitution>false</allowSubtypeSubstitution>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="185B722A-F464-BECC-6F43-8748EE04FD16" name="PK_AREA_PROTEGIDA">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_AREA_PROTEGIDA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF9D291-C281-3F5B-3765-E475FD90602E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B60725A-E4CE-EF8A-12D3-BA8BA78ADFA8" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_AREA_PROTEGIDA">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_AREA_PROTEGIDA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF9D291-C281-3F5B-3765-E475FD90602E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

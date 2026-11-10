@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PRESENCIA_DEPARTAMENTO" directorySegmentName="seg_0" id="9D2A98F3-79C9-21E9-3AC7-7BF9378B8C02">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>22880686-C4EF-1449-22A0-CB047DE92CB1</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<sourcePk>FA8FE6EB-C3CB-EC17-6815-7EAB08CAC83A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B9B6F7B-A608-E3F2-44DD-5FA59F6A775D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57BA322C-5F9F-47D8-9CF6-3FB8B7E6594A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

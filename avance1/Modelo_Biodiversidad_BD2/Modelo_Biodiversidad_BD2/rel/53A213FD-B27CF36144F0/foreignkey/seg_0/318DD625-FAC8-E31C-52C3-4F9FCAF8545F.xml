@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="318DD625-FAC8-E31C-52C3-4F9FCAF8545F" containerWithKeyObject="DB04B96C-6B9B-7DE8-DA54-02DCABD8F336" localFKIndex="DE4B52A6-E63A-8B36-30E0-73B1F7BA973E" name="FK_AVISTAMIENTO_CAMPANIA">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>FK_AVISTAMIENTO_CAMPANIA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<referredTableLongName>BIODIVERSIDAD.CAMPANIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDDE32DB-E5A1-5CD9-63E5-538115C8FB38</referredTableID>
+<keyObject>1A2E6FE8-3B66-4459-3809-C90802862050</keyObject>
+<referredKeyID>1A2E6FE8-3B66-4459-3809-C90802862050</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CAMPANIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

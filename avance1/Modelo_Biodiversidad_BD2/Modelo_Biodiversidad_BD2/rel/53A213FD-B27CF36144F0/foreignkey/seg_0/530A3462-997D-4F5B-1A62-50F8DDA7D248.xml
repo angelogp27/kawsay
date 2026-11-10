@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="530A3462-997D-4F5B-1A62-50F8DDA7D248" containerWithKeyObject="247C3825-94FF-C021-D90C-DDB2101FF089" localFKIndex="4D8F617F-9807-D25C-1B69-DF4957648F4B" name="FK_AUDITORIA_OBSERVADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>FK_AUDITORIA_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<referredTableLongName>BIODIVERSIDAD.OBSERVADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>565D1D68-EECD-AB94-D445-5A0BF0D8E3EB</referredTableID>
+<keyObject>597EDDBD-EE49-D787-90CE-2230381C8226</keyObject>
+<referredKeyID>597EDDBD-EE49-D787-90CE-2230381C8226</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_OBSERVADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

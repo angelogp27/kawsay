@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C03A7F72-8790-96BC-DC20-87A993CCDD42" name="DUPLICADO CANDIDATO">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>EAC68AD9-8102-AC20-3B07-315B1E79A905</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID AVISTAMIENTO A" id="123E123F-BA23-D791-F0A3-B297D138B2A8">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>38AEAFB6-21B9-6508-60D8-0A6215B29DC2</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<referedAttribute>67B4AD3B-9342-9F97-4B7D-1798077FFB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID AVISTAMIENTO B" id="4413D446-4F78-3DF5-D842-F7D14F25322C">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>4F1D7503-5EEF-17EF-5A58-E04CCDFDF6F6</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<referedAttribute>67B4AD3B-9342-9F97-4B7D-1798077FFB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISTANCIA METROS" id="2188C78D-1D7E-DC6C-7DA3-4DE0FB00DC60">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>53E6F89A-9657-DC50-CBCC-1296EB0349FB</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_DUPLICADO_DISTANCIA</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="distancia_metros &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="distancia_metros &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIFERENCIA MINUTOS" id="3B80BBC9-BC72-3B1F-5589-F850B90A6BE4">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>A0C76E7D-F22A-8980-3AB7-27DE6543DB2F</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_DUPLICADO_MINUTOS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="diferencia_minutos &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="diferencia_minutos &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="1C84E5DD-7404-185F-D802-BD233A063705">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>08FAB04A-17C1-0E8F-FC62-A76AD1F7C94B</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_DUPLICADO_ESTADO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;confirmado&apos;" description=""/>
+<valueDef value="&apos;descartado&apos;" description=""/>
+<valueDef value="&apos;pendiente&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4117269F-256D-FF53-D609-5D58CFAD718A" name="PK DUPLICADO CANDIDATO">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>9D3C71CB-AE54-8456-5847-A5EC251C2E85</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>123E123F-BA23-D791-F0A3-B297D138B2A8</attributeRef>
+<attributeRef>4413D446-4F78-3DF5-D842-F7D14F25322C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

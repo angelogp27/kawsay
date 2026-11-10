@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="OBSERVADOR" directorySegmentName="seg_0" id="565D1D68-EECD-AB94-D445-5A0BF0D8E3EB">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EBBA81DB-036D-7A21-7874-02974C82B176</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ALIAS" id="07F6D606-C314-319B-0721-139F9AB81D44">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_OBSERVADOR" id="4E0E0D78-77AF-0FE5-545B-FDDCAA20B170">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_REGISTRO" id="562B85F8-1874-518F-C567-C100B7C391E3">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPUTACION" id="786D4944-5062-F95A-1253-719ED4441A3A">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_OBSERVADOR" id="2B1F85A2-61EE-E2BC-8F37-5E1AC7331DA7">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_OBSERVADOR_ALIAS" id="EA5359D0-17A7-C403-9F47-18BD503BF566">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_OBSERVADOR" id="597EDDBD-EE49-D787-90CE-2230381C8226">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<existingIndex>2B1F85A2-61EE-E2BC-8F37-5E1AC7331DA7</existingIndex>
+<indexSegment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_OBSERVADOR_ALIAS" id="5E1FD8BE-CCBC-6237-0592-8CB4EDA5F0BB">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<existingIndex>EA5359D0-17A7-C403-9F47-18BD503BF566</existingIndex>
+<indexSegment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

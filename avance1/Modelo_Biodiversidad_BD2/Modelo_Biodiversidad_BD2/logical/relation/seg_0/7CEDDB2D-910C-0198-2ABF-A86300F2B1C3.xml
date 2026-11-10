@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ESPECIE_TAXON" directorySegmentName="seg_0" id="7CEDDB2D-910C-0198-2ABF-A86300F2B1C3">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>9F24DB5F-1FB8-B2ED-99FA-65008181CD2F</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<sourcePk>D7B8965E-57DB-7935-B106-6B562015A9E3</sourcePk>
+<dominantRole>88577956-3234-AE5D-AFBF-AF00E8B52E89</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88577956-3234-AE5D-AFBF-AF00E8B52E89</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9A3959E0-EA68-9A36-9B37-B74C8A03EF8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

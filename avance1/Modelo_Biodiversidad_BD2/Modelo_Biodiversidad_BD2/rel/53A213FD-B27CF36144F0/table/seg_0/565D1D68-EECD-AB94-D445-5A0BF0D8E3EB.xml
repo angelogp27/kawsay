@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="565D1D68-EECD-AB94-D445-5A0BF0D8E3EB" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="OBSERVADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OBSERVADOR" id="4E0E0D78-77AF-0FE5-545B-FDDCAA20B170">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>OBSERVADOR</sourceObjSchema>
+<sourceObjName>ID_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS" id="07F6D606-C314-319B-0721-139F9AB81D44">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>OBSERVADOR</sourceObjSchema>
+<sourceObjName>ALIAS</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="562B85F8-1874-518F-C567-C100B7C391E3">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>OBSERVADOR</sourceObjSchema>
+<sourceObjName>FECHA_REGISTRO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPUTACION" id="786D4944-5062-F95A-1253-719ED4441A3A">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>OBSERVADOR</sourceObjSchema>
+<sourceObjName>REPUTACION</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_OBSERVADOR_REPUTACION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="reputacion &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="reputacion &gt;= 0"/>
+</checkConstraint>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="597EDDBD-EE49-D787-90CE-2230381C8226" name="PK_OBSERVADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E0E0D78-77AF-0FE5-545B-FDDCAA20B170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E1FD8BE-CCBC-6237-0592-8CB4EDA5F0BB" name="UQ_OBSERVADOR_ALIAS">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>UQ_OBSERVADOR_ALIAS</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07F6D606-C314-319B-0721-139F9AB81D44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B1F85A2-61EE-E2BC-8F37-5E1AC7331DA7" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_OBSERVADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E0E0D78-77AF-0FE5-545B-FDDCAA20B170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA5359D0-17A7-C403-9F47-18BD503BF566" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="UQ_OBSERVADOR_ALIAS">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>UQ_OBSERVADOR_ALIAS</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07F6D606-C314-319B-0721-139F9AB81D44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

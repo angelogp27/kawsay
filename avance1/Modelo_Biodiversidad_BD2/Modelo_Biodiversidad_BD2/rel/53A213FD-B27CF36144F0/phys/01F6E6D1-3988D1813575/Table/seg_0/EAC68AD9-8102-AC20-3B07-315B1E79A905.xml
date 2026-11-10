@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DUPLICADO_CANDIDATO" directorySegmentName="seg_0" id="EAC68AD9-8102-AC20-3B07-315B1E79A905">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EBBA81DB-036D-7A21-7874-02974C82B176</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_AVISTAMIENTO_A" id="08647F8B-4570-8FC6-6D95-4D7B3421692C">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="08FAB04A-17C1-0E8F-FC62-A76AD1F7C94B">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_AVISTAMIENTO_B" id="192E3DF3-1D57-C7A2-6368-FEE9CB5724E8">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTANCIA_METROS" id="53E6F89A-9657-DC50-CBCC-1296EB0349FB">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIFERENCIA_MINUTOS" id="A0C76E7D-F22A-8980-3AB7-27DE6543DB2F">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_DUPLICADO_CANDIDATO" id="772AB758-AFE5-E7EC-2F54-4EA0C71034DE">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DUPLICADO_AVISTAMIENTO_B" id="2670928D-4BBA-FA9E-83EF-51CB0E23F3D9">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DUPLICADO_AVISTAMIENTO_A" id="F29D7546-0A4D-1211-E970-F8A9AF559A80">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DUPLICADO_CANDIDATO" id="9D3C71CB-AE54-8456-5847-A5EC251C2E85">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<segment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</segment>
+<tableSpace>6EF57169-D1A0-E077-E2D8-65DCA3AF0419</tableSpace>
+<existingIndex>772AB758-AFE5-E7EC-2F54-4EA0C71034DE</existingIndex>
+<indexSegment>BBCB0CEB-72D2-C1DA-B342-8C1C7AE727FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_DUPLICADO_ORDEN" id="D7B253E1-A5C9-0D9E-3E43-5C4354A89A44">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EVIDENCIA_AVISTAMIENTO" directorySegmentName="seg_0" id="B2591C5D-7F76-0A0B-889B-DFA72CAD0AC4">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>A21F0EEE-CAAF-2928-CE23-3E8E7AF03E32</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<sourcePk>0B202516-1DE5-4AA6-1965-80237E83AD79</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5CE84C03-EDB1-75F5-EED0-0891C52E1622</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37FC823A-02B8-21CE-C622-A374CF507C61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

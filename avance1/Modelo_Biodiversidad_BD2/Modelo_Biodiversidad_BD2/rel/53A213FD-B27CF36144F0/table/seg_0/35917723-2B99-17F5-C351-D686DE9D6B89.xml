@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35917723-2B99-17F5-C351-D686DE9D6B89" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="IDENTIFICACION">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>IDENTIFICACION</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IDENTIFICACION" id="9AC868B8-29C7-83CD-1D9D-FC458EE5A264">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>IDENTIFICACION</sourceObjSchema>
+<sourceObjName>ID_IDENTIFICACION</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_AVISTAMIENTO" id="5B891546-EF4F-C9F3-E338-B794A37377E5">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>IDENTIFICACION</sourceObjSchema>
+<sourceObjName>ID_AVISTAMIENTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09AF4C7C-B82F-7242-04AF-2E8DB7CE1BD0" referredColumn="39883DD1-5CB1-4437-420A-12CF98D1507C"/>
+</associations>
+</Column>
+<Column name="ID_OBSERVADOR" id="C34E5F80-500C-46B4-5423-B3B95A516213">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>IDENTIFICACION</sourceObjSchema>
+<sourceObjName>ID_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56975A2C-6237-2453-B4B3-44A8D9DBD935" referredColumn="4E0E0D78-77AF-0FE5-545B-FDDCAA20B170"/>
+</associations>
+</Column>
+<Column name="ID_TAXON_PROPUESTO" id="8ACCD528-464E-7D38-EE7F-C0AFB6AE2F95">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>IDENTIFICACION</sourceObjSchema>
+<sourceObjName>ID_TAXON_PROPUESTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D80F761-A248-2D3A-3113-BF6CC826541A" referredColumn="C6B2256A-39C1-5F89-2485-D2EE53EFAA09"/>
+</associations>
+</Column>
+<Column name="FECHA" id="8E4FC897-E14A-2DCA-538E-B7EB54F7FA22">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>IDENTIFICACION</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2833069-91F6-0A37-DF36-4F567B5EAA6E" name="PK_IDENTIFICACION">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_IDENTIFICACION</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC868B8-29C7-83CD-1D9D-FC458EE5A264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F76A73BD-81B6-FCA9-2D02-70B8AA995476" name="UQ_IDENTIFICACION_OBSERVADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>UQ_IDENTIFICACION_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B891546-EF4F-C9F3-E338-B794A37377E5"/>
+<colUsage columnID="C34E5F80-500C-46B4-5423-B3B95A516213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5B38BE3-9BCD-8A38-D8F0-D65BD86C7B39" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_IDENTIFICACION">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_IDENTIFICACION</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC868B8-29C7-83CD-1D9D-FC458EE5A264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D420B05-EBE8-4FF2-0CDD-BDA2E10D00EE" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="UQ_IDENTIFICACION_OBSERVADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>UQ_IDENTIFICACION_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B891546-EF4F-C9F3-E338-B794A37377E5"/>
+<colUsage columnID="C34E5F80-500C-46B4-5423-B3B95A516213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8A53829-6011-BE19-0391-31FDB8ED1953" name="FK_IDENTIFICACION_AVISTAMIENTO">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B891546-EF4F-C9F3-E338-B794A37377E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1186A22E-44A2-94BE-DB17-A99B0A07BE07" name="FK_IDENTIFICACION_OBSERVADOR">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C34E5F80-500C-46B4-5423-B3B95A516213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16F6D44E-C72E-0CD3-CA8C-17495F2EE1BF" name="FK_IDENTIFICACION_TAXON">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ACCD528-464E-7D38-EE7F-C0AFB6AE2F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

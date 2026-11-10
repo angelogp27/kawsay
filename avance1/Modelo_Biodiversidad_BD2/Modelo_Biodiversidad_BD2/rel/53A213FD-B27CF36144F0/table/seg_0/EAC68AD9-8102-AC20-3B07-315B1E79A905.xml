@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAC68AD9-8102-AC20-3B07-315B1E79A905" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="DUPLICADO_CANDIDATO">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>DUPLICADO_CANDIDATO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AVISTAMIENTO_A" id="08647F8B-4570-8FC6-6D95-4D7B3421692C">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DUPLICADO_CANDIDATO</sourceObjSchema>
+<sourceObjName>ID_AVISTAMIENTO_A</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45A6810E-7644-815C-89C2-5CA49446E64D" referredColumn="39883DD1-5CB1-4437-420A-12CF98D1507C"/>
+</associations>
+</Column>
+<Column name="ID_AVISTAMIENTO_B" id="192E3DF3-1D57-C7A2-6368-FEE9CB5724E8">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DUPLICADO_CANDIDATO</sourceObjSchema>
+<sourceObjName>ID_AVISTAMIENTO_B</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70C54CD0-0E60-0356-237C-4686592EA973" referredColumn="39883DD1-5CB1-4437-420A-12CF98D1507C"/>
+</associations>
+</Column>
+<Column name="DISTANCIA_METROS" id="53E6F89A-9657-DC50-CBCC-1296EB0349FB">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DUPLICADO_CANDIDATO</sourceObjSchema>
+<sourceObjName>DISTANCIA_METROS</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_DUPLICADO_DISTANCIA</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="distancia_metros &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="distancia_metros &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIFERENCIA_MINUTOS" id="A0C76E7D-F22A-8980-3AB7-27DE6543DB2F">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DUPLICADO_CANDIDATO</sourceObjSchema>
+<sourceObjName>DIFERENCIA_MINUTOS</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_DUPLICADO_MINUTOS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="diferencia_minutos &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="diferencia_minutos &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="08FAB04A-17C1-0E8F-FC62-A76AD1F7C94B">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>DUPLICADO_CANDIDATO</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_DUPLICADO_ESTADO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;confirmado&apos;" description=""/>
+<valueDef value="&apos;descartado&apos;" description=""/>
+<valueDef value="&apos;pendiente&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D3C71CB-AE54-8456-5847-A5EC251C2E85" name="PK_DUPLICADO_CANDIDATO">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_DUPLICADO_CANDIDATO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08647F8B-4570-8FC6-6D95-4D7B3421692C"/>
+<colUsage columnID="192E3DF3-1D57-C7A2-6368-FEE9CB5724E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="772AB758-AFE5-E7EC-2F54-4EA0C71034DE" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_DUPLICADO_CANDIDATO">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_DUPLICADO_CANDIDATO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08647F8B-4570-8FC6-6D95-4D7B3421692C"/>
+<colUsage columnID="192E3DF3-1D57-C7A2-6368-FEE9CB5724E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29D7546-0A4D-1211-E970-F8A9AF559A80" name="FK_DUPLICADO_AVISTAMIENTO_A">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08647F8B-4570-8FC6-6D95-4D7B3421692C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2670928D-4BBA-FA9E-83EF-51CB0E23F3D9" name="FK_DUPLICADO_AVISTAMIENTO_B">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="192E3DF3-1D57-C7A2-6368-FEE9CB5724E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_DUPLICADO_ORDEN" directorySegmentName="seg_0" id="D7B253E1-A5C9-0D9E-3E43-5C4354A89A44">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>CK_DUPLICADO_ORDEN</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<rule><![CDATA[id_avistamiento_a < id_avistamiento_b]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

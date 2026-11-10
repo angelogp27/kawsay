@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7052A89A-0C28-E131-14FC-A2B981D3B12C" containerWithKeyObject="EA5AC6AC-285F-FA74-02F6-517ECE41471F" localFKIndex="14FB6852-178F-0916-EC08-891139A70E26" name="FK_PRESENCIA_ESPECIE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>FK_PRESENCIA_ESPECIE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<referredTableLongName>BIODIVERSIDAD.ESPECIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F6FB3A5-224A-010C-28E4-629373BC3708</referredTableID>
+<keyObject>87305B2E-24E9-DB12-B172-5F92E1CB983B</keyObject>
+<referredKeyID>87305B2E-24E9-DB12-B172-5F92E1CB983B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TAXON</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

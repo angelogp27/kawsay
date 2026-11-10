@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AUDITORIA_OBSERVADOR" directorySegmentName="seg_0" id="8F024018-0BC4-2B04-9699-7EFAC955AE3D">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>530A3462-997D-4F5B-1A62-50F8DDA7D248</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<sourcePk>A9D6FD53-80CC-1FEA-DA43-F1C89D44B335</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A9EB2B2-4D6E-9A11-1A31-C4D34921B361</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97D5878C-ADA2-0E49-4F55-E764E7426B1F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

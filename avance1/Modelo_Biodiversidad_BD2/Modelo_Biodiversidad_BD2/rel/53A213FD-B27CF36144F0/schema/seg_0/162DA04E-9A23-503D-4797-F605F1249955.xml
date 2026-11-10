@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="BIODIVERSIDAD" directorySegmentName="seg_0" id="162DA04E-9A23-503D-4797-F605F1249955">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+</SchemaObject>

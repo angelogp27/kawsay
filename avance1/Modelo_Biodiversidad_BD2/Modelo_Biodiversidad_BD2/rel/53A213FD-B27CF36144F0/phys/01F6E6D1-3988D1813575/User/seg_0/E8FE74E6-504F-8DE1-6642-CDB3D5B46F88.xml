@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BIODIVERSIDAD" directorySegmentName="seg_0" id="E8FE74E6-504F-8DE1-6642-CDB3D5B46F88">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjName>BIODIVERSIDAD</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:54 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<schemaObject>162DA04E-9A23-503D-4797-F605F1249955</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F6FB3A5-224A-010C-28E4-629373BC3708" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="ESPECIE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>ESPECIE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TAXON" id="04DDDC84-9B08-7459-4D0E-B86CBCFF0813">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>ESPECIE</sourceObjSchema>
+<sourceObjName>ID_TAXON</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F24DB5F-1FB8-B2ED-99FA-65008181CD2F" referredColumn="C6B2256A-39C1-5F89-2485-D2EE53EFAA09"/>
+</associations>
+</Column>
+<Column name="NOMBRE_COMUN" id="516D80BC-99A9-4CFA-D153-5692AC5E95EA">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>ESPECIE</sourceObjSchema>
+<sourceObjName>NOMBRE_COMUN</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CONSERVACION" id="F99ACE06-E2AB-E908-774C-9B90B6C21CCE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>ESPECIE</sourceObjSchema>
+<sourceObjName>ESTADO_CONSERVACION</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_ESPECIE_CONSERVACION</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="estado_conservacion IS NULL"/>
+<implementationDef dbType="Oracle Database 21c" definition="estado_conservacion IS NULL"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="&apos;CR&apos;" description=""/>
+<valueDef value="&apos;EN&apos;" description=""/>
+<valueDef value="&apos;LC&apos;" description=""/>
+<valueDef value="&apos;NT&apos;" description=""/>
+<valueDef value="&apos;VU&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES_ENDEMICA" id="5086F383-4F46-F53C-A05A-2F1C242D8BA5">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>ESPECIE</sourceObjSchema>
+<sourceObjName>ES_ENDEMICA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_ESPECIE_ENDEMICA</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="es_endemica IS NULL"/>
+<implementationDef dbType="Oracle Database 21c" definition="es_endemica IS NULL"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES_MIGRATORIA" id="9BF14C14-72B9-2D75-CAEE-3674FA9BBC0E">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>ESPECIE</sourceObjSchema>
+<sourceObjName>ES_MIGRATORIA</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<constraintName>CK_ESPECIE_MIGRATORIA</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="es_migratoria IS NULL"/>
+<implementationDef dbType="Oracle Database 21c" definition="es_migratoria IS NULL"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87305B2E-24E9-DB12-B172-5F92E1CB983B" name="PK_ESPECIE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_ESPECIE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04DDDC84-9B08-7459-4D0E-B86CBCFF0813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93A1B4F1-D328-C704-9FBB-4FD8AD99A865" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_ESPECIE">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_ESPECIE</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04DDDC84-9B08-7459-4D0E-B86CBCFF0813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70ED343E-5FAB-ABC1-884E-D39FB12CA160" name="FK_ESPECIE_TAXON">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04DDDC84-9B08-7459-4D0E-B86CBCFF0813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

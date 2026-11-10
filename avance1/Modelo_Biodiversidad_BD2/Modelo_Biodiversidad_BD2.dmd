@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Biodiversidad_BD2" id="26F98311-5F5C-3A21-14D7-53DC7D1A715B" version="3.5">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:05:41 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>26F98311-5F5C-3A21-14D7-53DC7D1A715B</designId>
+</OSDM_Design>

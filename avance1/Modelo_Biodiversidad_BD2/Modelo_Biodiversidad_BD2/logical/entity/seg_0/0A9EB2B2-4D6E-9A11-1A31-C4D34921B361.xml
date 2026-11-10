@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A9EB2B2-4D6E-9A11-1A31-C4D34921B361" name="OBSERVADOR">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>565D1D68-EECD-AB94-D445-5A0BF0D8E3EB</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID OBSERVADOR" id="8176C42F-8FB1-BCFB-8F2B-0ED78EE63642">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>4E0E0D78-77AF-0FE5-545B-FDDCAA20B170</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALIAS" id="282D4DB0-6E9B-24E4-2E1B-A6C02BEA3278">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>07F6D606-C314-319B-0721-139F9AB81D44</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA REGISTRO" id="30491751-F611-EAAD-EDDA-2301F2466275">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>562B85F8-1874-518F-C567-C100B7C391E3</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REPUTACION" id="F0A7B3FA-1194-7FAE-979E-8493E1D9ED96">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>786D4944-5062-F95A-1253-719ED4441A3A</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<constraintName>CK_OBSERVADOR_REPUTACION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="reputacion &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="reputacion &gt;= 0"/>
+</checkConstraint>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9D6FD53-80CC-1FEA-DA43-F1C89D44B335" name="PK OBSERVADOR">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>597EDDBD-EE49-D787-90CE-2230381C8226</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8176C42F-8FB1-BCFB-8F2B-0ED78EE63642</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BB691E2E-F5BF-1429-1AC6-03C481E53566" name="UQ OBSERVADOR ALIAS">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>5E1FD8BE-CCBC-6237-0592-8CB4EDA5F0BB</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>282D4DB0-6E9B-24E4-2E1B-A6C02BEA3278</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

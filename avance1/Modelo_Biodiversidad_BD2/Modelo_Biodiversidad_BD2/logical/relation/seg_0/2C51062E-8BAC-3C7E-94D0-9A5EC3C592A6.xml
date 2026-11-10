@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AVISTAMIENTO_CAMPANIA" directorySegmentName="seg_0" id="2C51062E-8BAC-3C7E-94D0-9A5EC3C592A6">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>318DD625-FAC8-E31C-52C3-4F9FCAF8545F</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<sourcePk>9399A8D4-9502-5D37-92C5-CD0CC24B5EB4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C3DCEDA-4990-F1F5-2712-FDF546EDBC37</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5CE84C03-EDB1-75F5-EED0-0891C52E1622</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

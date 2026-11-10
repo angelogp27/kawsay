@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3FF7B982-5B7B-EFAE-07D3-7D9BBBBA32D2" mainViewID="132C3816-F2C0-AACF-0F95-C059B6777310">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:05:41 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

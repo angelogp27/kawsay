@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TAXON_PADRE" directorySegmentName="seg_0" id="8B28B4CD-506D-D474-4320-3A34B44327FC">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>936B3752-1044-BCFF-EDEE-231EDBE6FE6A</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<targetPk>D7B8965E-57DB-7935-B106-6B562015A9E3</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88577956-3234-AE5D-AFBF-AF00E8B52E89</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88577956-3234-AE5D-AFBF-AF00E8B52E89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

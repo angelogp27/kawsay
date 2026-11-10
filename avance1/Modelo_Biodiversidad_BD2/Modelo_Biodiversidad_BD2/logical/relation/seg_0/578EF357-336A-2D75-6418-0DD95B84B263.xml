@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_INVESTIGADOR_OBSERVADOR" directorySegmentName="seg_0" id="578EF357-336A-2D75-6418-0DD95B84B263">
+<createdBy>agoitia</createdBy>
+<createdTime>2026-10-06 15:55:16 UTC</createdTime>
+<generatorID>B700F51D-CA55-0FAB-9399-20978022D5CA</generatorID>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<engineerTo>
+<item key="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" value="true"/>
+</engineerTo>
+<sourcePk>A9D6FD53-80CC-1FEA-DA43-F1C89D44B335</sourcePk>
+<dominantRole>0A9EB2B2-4D6E-9A11-1A31-C4D34921B361</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A9EB2B2-4D6E-9A11-1A31-C4D34921B361</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F860AFE1-C432-C4C2-0284-A6E3EFAC949A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="53A213FD-8EB4-AE83-B4C0-B27CF36144F0" mainViewID="DE240D14-37D9-506E-44DE-FC96A697931A">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:05:42 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>BD2_BIODIVERSIDAD</connName>
+<connUser>biodiversidad</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

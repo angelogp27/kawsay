@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83750D4B-C072-E748-20A7-AD3BC04D4D98" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="INVESTIGADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>INVESTIGADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OBSERVADOR" id="4BA12CF8-8A58-20C8-B200-763A5D389218">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>INVESTIGADOR</sourceObjSchema>
+<sourceObjName>ID_OBSERVADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B700F51D-CA55-0FAB-9399-20978022D5CA" referredColumn="4E0E0D78-77AF-0FE5-545B-FDDCAA20B170"/>
+</associations>
+</Column>
+<Column name="ID_DEPARTAMENTO" id="B847A99D-6E2A-799F-A54C-706F2D722350">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>INVESTIGADOR</sourceObjSchema>
+<sourceObjName>ID_DEPARTAMENTO</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:55 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C80DD62-0415-0625-EEDC-F7DD633C82B6" referredColumn="E2220C0E-1323-C714-EDED-1E692646BD2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DD03940-F122-E66E-CCBD-897456E6A677" name="PK_INVESTIGADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_INVESTIGADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA12CF8-8A58-20C8-B200-763A5D389218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A031D0CD-5CA2-344C-3261-43D1A079F193" schemaObject="162DA04E-9A23-503D-4797-F605F1249955" name="PK_INVESTIGADOR">
+<sourceConnName>BD2_BIODIVERSIDAD</sourceConnName>
+<sourceObjSchema>BIODIVERSIDAD</sourceObjSchema>
+<sourceObjName>PK_INVESTIGADOR</sourceObjName>
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:06:58 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA12CF8-8A58-20C8-B200-763A5D389218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72159012-BBE4-D96A-CC55-4C591C9040AD" name="FK_INVESTIGADOR_DEPARTAMENTO">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B847A99D-6E2A-799F-A54C-706F2D722350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FCB647A-D285-91F5-406D-D046300D0A18" name="FK_INVESTIGADOR_OBSERVADOR">
+<createdBy>piero</createdBy>
+<createdTime>2026-10-05 04:07:00 UTC</createdTime>
+<ownerDesignName>Modelo_Biodiversidad_BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA12CF8-8A58-20C8-B200-763A5D389218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
